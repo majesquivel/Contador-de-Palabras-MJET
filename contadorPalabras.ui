@@ -13,112 +13,95 @@
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
-  <property name="styleSheet">
-   <string notr="true"/>
-  </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>80</x>
-      <y>20</y>
-      <width>671</width>
-      <height>71</height>
+      <x>220</x>
+      <y>60</y>
+      <width>371</width>
+      <height>91</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <family>Segoe UI Black</family>
-      <pointsize>36</pointsize>
-      <weight>75</weight>
-      <bold>true</bold>
+      <family>MV Boli</family>
+      <pointsize>22</pointsize>
      </font>
     </property>
     <property name="text">
-     <string>Contador de palabras</string>
+     <string>Contador de Palabras</string>
     </property>
    </widget>
-   <widget class="QLineEdit" name="edtCaracteres">
+   <widget class="QTextEdit" name="edtCaracteres">
     <property name="geometry">
      <rect>
-      <x>60</x>
-      <y>130</y>
-      <width>671</width>
-      <height>251</height>
+      <x>100</x>
+      <y>150</y>
+      <width>641</width>
+      <height>161</height>
      </rect>
     </property>
-    <property name="font">
-     <font>
-      <pointsize>14</pointsize>
-     </font>
-    </property>
     <property name="styleSheet">
-     <string notr="true">border-radius: 20px;
-border: 4px solid black;</string>
+     <string notr="true">border-radius: 15px;
+border: 3px solid black;</string>
     </property>
    </widget>
    <widget class="QLabel" name="tvPalabras">
     <property name="geometry">
      <rect>
-      <x>60</x>
-      <y>410</y>
-      <width>211</width>
-      <height>31</height>
+      <x>110</x>
+      <y>320</y>
+      <width>161</width>
+      <height>21</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <family>Segoe UI Black</family>
-      <pointsize>20</pointsize>
-      <weight>75</weight>
-      <bold>true</bold>
+      <family>MV Boli</family>
+      <pointsize>12</pointsize>
      </font>
     </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
     <property name="text">
-     <string>Palabras: 45 </string>
+     <string>Palabras: 500</string>
     </property>
    </widget>
    <widget class="QLabel" name="tvCaracteres">
     <property name="geometry">
      <rect>
-      <x>290</x>
-      <y>410</y>
-      <width>261</width>
-      <height>31</height>
+      <x>320</x>
+      <y>320</y>
+      <width>181</width>
+      <height>21</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <family>Segoe UI Black</family>
-      <pointsize>20</pointsize>
-      <weight>75</weight>
-      <bold>true</bold>
+      <family>MV Boli</family>
+      <pointsize>12</pointsize>
      </font>
     </property>
     <property name="text">
-     <string>Caracteres: 120</string>
+     <string>Caracteres: 500</string>
     </property>
    </widget>
    <widget class="QPushButton" name="btnContar">
     <property name="geometry">
      <rect>
-      <x>570</x>
-      <y>400</y>
-      <width>141</width>
-      <height>51</height>
+      <x>600</x>
+      <y>320</y>
+      <width>111</width>
+      <height>31</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <family>Segoe UI Black</family>
-      <pointsize>16</pointsize>
-      <weight>75</weight>
-      <bold>true</bold>
+      <family>MV Boli</family>
+      <pointsize>12</pointsize>
      </font>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">color: rgb(255, 255, 255);
-background-color: rgb(0, 170, 0);</string>
     </property>
     <property name="text">
      <string>CONTAR</string>
