@@ -29,6 +29,16 @@ class ContadorPalabras(QtWidgets.QMainWindow):
         totalCaracteres
         self.tvCaracteres.setText(f"Caracteres: {totalCaracteres}")
         
+        if cantidadPalabras >=  20:
+            self.tvPalabras.setStyleSheet("font: 11pt \"MS Shell Dlg 2\"; color: #ff756b")
+        else:
+            self.tvPalabras.setStyleSheet("font: 11pt \"MS Shell Dlg 2\"; color: #000000")
+            
+        if totalCaracteres >= 120:
+            self.tvCaracteres.setStyleSheet("font: 11pt \"MS Shell Dlg 2\"; color: #ff756b")
+        else:
+            self.tvCaracteres.setStyleSheet("font: 11pt \"MS Shell Dlg 2\"; color: #000000")
+        
 app = QtWidgets.QApplication(sys.argv)
 ventana = ContadorPalabras()
 ventana.show()
